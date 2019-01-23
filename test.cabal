@@ -1,0 +1,12 @@
+cabal-version: 2.0
+name: test
+version: 0.1.0.0
+license: BSD3
+build-type: Simple
+
+library
+  hs-source-dirs: src
+  exposed-modules: Test
+  build-depends: base
+
+library irritant
